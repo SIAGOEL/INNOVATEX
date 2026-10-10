@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="InnovateX 2026 — a student-powered festival of technology, creativity and ideas." />
+  <title>InnovateX 2026 | Imagine. Invent. Ignite.</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">INNOVATE<span>X</span><small>2026</small></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links">☰</button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a><a href="#events">Events</a><a href="#schedule">Schedule</a><a href="#gallery">Gallery</a><a href="#register" class="nav-cta">Register ↗</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <div class="container hero-content">
+        <div class="eyebrow"><span class="pulse"></span> THE FUTURE STARTS HERE · 2026</div>
+        <h1>IMAGINE.<br /><span>INVENT.</span><br />IGNITE.</h1>
+        <p class="hero-sub">Three days. Limitless ideas. One unforgettable celebration of technology, art and innovation.</p>
+        <div class="hero-meta"><span>◈ 18–20 DECEMBER 2026</span><span>⌁ INNOVATION CAMPUS</span></div>
+        <div class="countdown-label">THE COUNTDOWN IS ON</div>
+        <div class="countdown" aria-label="Time until festival">
+          <div><strong id="days">00</strong><small>DAYS</small></div><div><strong id="hours">00</strong><small>HOURS</small></div><div><strong id="minutes">00</strong><small>MINUTES</small></div><div><strong id="seconds">00</strong><small>SECONDS</small></div>
+        </div>
+        <a href="#register" class="btn primary">REGISTER NOW <span>↗</span></a>
+      </div>
+      <div class="hero-side">CREATE WHAT'S NEXT — INNOVATEX '26</div>
+    </section>
+    <section class="section about-section" id="about">
+      <div class="container about-grid"><div><div class="section-kicker">01 / THE EXPERIENCE</div><h2>NOT JUST A FEST.<br /><em>A MOVEMENT.</em></h2></div><div><p class="lead">InnovateX 2026 brings bold minds together to build, compete, create and connect.</p><p>From coding marathons and robotics challenges to design battles and inspiring conversations, it's your space to turn curiosity into something extraordinary. Meet collaborators, learn from peers and leave with stories worth sharing.</p><div class="stats"><div><strong>03</strong><small>DAYS</small></div><div><strong>05</strong><small>EVENTS</small></div><div><strong>∞</strong><small>IDEAS</small></div></div></div></div>
+    </section>
+    <section class="section events-section" id="events"><div class="container"><div class="section-kicker">02 / FIND YOUR ARENA</div><div class="section-heading"><h2>THE <em>EVENTS.</em></h2><p>Pick your passion. Push your limits.<br />Click a card to discover more.</p></div><div class="event-grid">
+      <button class="event-card" data-event="hackathon" aria-expanded="false"><span class="event-num">01 / BUILD</span><span class="event-icon">⌘</span><h3>CODE STORM</h3><p>Hackathon</p><span class="event-more">EXPLORE EVENT ↗</span><span class="event-detail">Team up and build a working solution in 24 hours. Bring a laptop, your ideas and your best problem-solving skills.</span></button>
+      <button class="event-card" data-event="robotics" aria-expanded="false"><span class="event-num">02 / ENGINEER</span><span class="event-icon">⚙</span><h3>ROBO RUMBLE</h3><p>Robotics Challenge</p><span class="event-more">EXPLORE EVENT ↗</span><span class="event-detail">Design, test and pilot your robot through an obstacle course. Precision, speed and teamwork win the day.</span></button>
+      <button class="event-card" data-event="design" aria-expanded="false"><span class="event-num">03 / DESIGN</span><span class="event-icon">✳</span><h3>PIXEL WARS</h3><p>UI/UX Design Battle</p><span class="event-more">EXPLORE EVENT ↗</span><span class="event-detail">Solve a surprise design brief and present a polished interface prototype to the judges.</span></button>
+      <button class="event-card" data-event="quiz" aria-expanded="false"><span class="event-num">04 / THINK</span><span class="event-icon">◇</span><h3>BRAINWAVE</h3><p>Tech Quiz</p><span class="event-more">EXPLORE EVENT ↗</span><span class="event-detail">Test your knowledge across technology, science, startups and pop culture in fast-paced rounds.</span></button>
+      <button class="event-card" data-event="pitch" aria-expanded="false"><span class="event-num">05 / PITCH</span><span class="event-icon">↗</span><h3>IDEA IGNITE</h3><p>Startup Pitch</p><span class="event-more">EXPLORE EVENT ↗</span><span class="event-detail">Pitch an original startup idea in five minutes and answer questions from a mock investor panel.</span></button>
+    </div></div></section>
+    <section class="section schedule-section" id="schedule"><div class="container"><div class="section-kicker">03 / PLAN YOUR DAYS</div><div class="section-heading"><h2>THE <em>LINEUP.</em></h2><p>Three days of making things happen.</p></div><div class="schedule-layout"><div class="day-tabs" role="tablist" aria-label="Festival day"><button class="day-tab active" data-day="1" role="tab" aria-selected="true">DAY 01 <span>18 DEC · FRI</span></button><button class="day-tab" data-day="2" role="tab" aria-selected="false">DAY 02 <span>19 DEC · SAT</span></button><button class="day-tab" data-day="3" role="tab" aria-selected="false">DAY 03 <span>20 DEC · SUN</span></button></div><div class="timeline" id="timeline" aria-live="polite"></div></div></div></section>
+    <section class="section gallery-section" id="gallery"><div class="container"><div class="section-kicker">04 / THE VIBE</div><div class="section-heading"><h2>SEE THE <em>ENERGY.</em></h2><p>A glimpse of the experiences that inspire us.</p></div><div class="gallery-grid"><figure class="gallery-tall"><img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1100&q=85" alt="Students collaborating on laptops" loading="lazy" /><figcaption>CREATE TOGETHER</figcaption></figure><figure><img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=900&q=85" alt="Conference crowd at a technology event" loading="lazy" /><figcaption>GET INSPIRED</figcaption></figure><figure><img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=85" alt="Team brainstorming around a table" loading="lazy" /><figcaption>THINK BIGGER</figcaption></figure><figure><img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=85" alt="Creative team working with computers" loading="lazy" /><figcaption>BUILD THE FUTURE</figcaption></figure><figure><img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=85" alt="Group collaborating on an idea" loading="lazy" /><figcaption>MAKE CONNECTIONS</figcaption></figure></div><p class="gallery-note">Illustrative images. InnovateX 2026 is a fictional college festival.</p></div></section>
+    <section class="section registration-section" id="register"><div class="container register-grid"><div><div class="section-kicker">05 / YOUR NEXT CHAPTER</div><h2>YOUR SEAT.<br /><em>YOUR STORY.</em></h2><p>Big ideas need bold people. Sign up to join the experience.</p><div class="registration-note">✳ Free registration · Demo registration form</div></div><form id="registration-form" class="register-form" novalidate><h3>JOIN THE MOVEMENT ↗</h3><label for="name">FULL NAME</label><input id="name" name="name" type="text" placeholder="Your full name" autocomplete="name" required maxlength="80" /><span class="error" id="name-error"></span><label for="email">EMAIL ADDRESS</label><input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required /><span class="error" id="email-error"></span><label for="event">CHOOSE YOUR EVENT</label><select id="event" name="event" required><option value="">Select an event</option><option>Code Storm — Hackathon</option><option>Robo Rumble — Robotics</option><option>Pixel Wars — UI/UX</option><option>Brainwave — Tech Quiz</option><option>Idea Ignite — Startup Pitch</option></select><span class="error" id="event-error"></span><button type="submit" class="btn primary submit-btn">CONFIRM REGISTRATION ↗</button><p id="form-message" role="status" aria-live="polite"></p><small>This is a demo: no data is sent to a server.</small></form></div></section>
+  </main>
+  <footer class="footer"><div class="container"><div class="footer-top"><div><a class="logo" href="#home">INNOVATE<span>X</span><small>2026</small></a><p>Ideas don't wait. Neither should you.</p></div><div><h4>CONTACT</h4><a href="mailto:hello@innovatex.example">hello@innovatex.example</a><p>Innovation Campus · Fictional Venue</p></div><div><h4>CONNECT</h4><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></div><div class="footer-bottom"><span>© 2026 INNOVATEX. A FICTIONAL COLLEGE FEST PROJECT.</span><a href="#home">BACK TO TOP ↑</a></div></div></footer>
+</body>
+</html>
